@@ -18,7 +18,7 @@ public class ScannerFromFileWithFinally {
         } finally {
             //close file; // always try to close the file
 
-   Despues de hacer la logica principal y tratar las excepciones, accede aqui y cierra el archivo
+   Después de hacer la logica principal y tratar las excepciones, accede aqui y cierra el archivo
         }
     }
 }
