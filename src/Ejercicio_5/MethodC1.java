@@ -17,7 +17,6 @@ public class MethodC1 {
             System.out.println("XxxException: " + ex.getMessage());
         } catch (YyyException ex) {
             // Exception handler for YyyException
-            System.out.println("YyyException: " + ex.getMessage());
         } finally { // optional
             // These codes always run, used for cleaning up
             System.out.println("Finally del methodC()");
@@ -29,7 +28,6 @@ public class MethodC1 {
             methodD(-1);
         } catch (XxxException ex) {
             // Exception handler for XxxException
-            System.out.println("XxxException: " + ex.getMessage());
         } catch (YyyException ex) {
             // Exception handler for YyyException
             System.out.println("YyyException: " + ex.getMessage());
