@@ -4,7 +4,7 @@ public class MethodCallStackDemo {
     public static void main(String[] args) {
         System.out.println("Enter main()");
         methodA();
-        System.out.println("Exit main()");
+        //System.out.println("Exit main()"); no se mete por la excepcion
     }
     public static void methodA() {
         System.out.println("Enter methodA()");
@@ -16,7 +16,7 @@ public class MethodCallStackDemo {
         } finally {
             System.out.println("finally in methodA()");
         }
-        System.out.println("Exit methodA()");
+        //System.out.println("Exit methodA()"); no se mete por la excepcion
     }
 }
 

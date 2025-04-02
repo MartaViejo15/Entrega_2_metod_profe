@@ -12,6 +12,7 @@ public class TryCatchFinally {
             Scanner in = new Scanner(new File("test.in"));
             System.out.println("File Found, processing the file ...");
             System.out.println("End of the main logic");
+            Scanner sc = new Scanner(new File("null"));
         } catch (FileNotFoundException ex) { // error handling separated from the main logic
             System.out.println("File Not Found caught ...");
         } finally { // always run regardless of exception status
