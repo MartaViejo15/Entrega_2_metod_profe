@@ -9,8 +9,9 @@ public class IllegalArgumentExceptionEjemplo {
     }
     public static void main(String[] args) {
         try {
-            double solucion = raizCuadrada(-4);
+            double solucion = raizCuadrada(4);
             System.out.println("La raíz es: " + solucion);
+            double solucion2 = raizCuadrada(-4);
         } catch (IllegalArgumentException ex) {
             System.out.println("IllegalArgumentException encontrada: " + ex.getMessage());
         } finally {

@@ -6,7 +6,6 @@ public class ClassCastExceptionEjemplo {
 
         try {
             Integer i = (Integer) o;
-            System.out.println("Número: " + i);
         } catch (ClassCastException ex) {
             System.out.println("ClassCastException encontrada: " + ex);
         } finally {

@@ -6,7 +6,7 @@ public class NumberFormatExceptionEjemplo {
 
         try {
             int numero = Integer.parseInt(numeroNoValido);
-            System.out.println("Número convertido: " + numero);
+            //System.out.println("Número convertido: " + numero); No sale porque da la excepcion
         } catch (NumberFormatException ex) {
             System.out.println("NumberFormatException encontrada: " + ex.getMessage());
         } finally {
