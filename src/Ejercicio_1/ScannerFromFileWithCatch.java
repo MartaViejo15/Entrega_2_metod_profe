@@ -8,6 +8,7 @@ public class ScannerFromFileWithCatch {
     public static void main(String[] args) {
         try {
             Scanner in = new Scanner(new File("test.in"));
+            Scanner in2 = new Scanner(new File("null"));
             // do something if no exception ...
             // you main logic here in the try-block
         } catch (FileNotFoundException ex) { // error handling separated from the main logic

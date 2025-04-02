@@ -13,6 +13,7 @@ public class ScannerFromFile {
          */
         try{
             Scanner in = new Scanner(new File("test.in"));
+            Scanner in2 = new Scanner(new File("null"));
         }catch (FileNotFoundException e){
             System.out.println(e);
             /* Esto lo que hace es escribir la excepción en la terminal sin que dé el error
