@@ -8,7 +8,6 @@ public class NullPointerExceptionEjemplo {
             System.out.println("Longitud de strs[0]: " + strs[0].length());
         } catch (NullPointerException ex) {
             System.out.println("NullPointerException encontrada: " + ex.getMessage());
-            ex.printStackTrace();
         } finally {
             System.out.println("Final del try");
         }

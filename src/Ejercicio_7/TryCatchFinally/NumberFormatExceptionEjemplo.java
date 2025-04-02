@@ -9,7 +9,6 @@ public class NumberFormatExceptionEjemplo {
             System.out.println("Número convertido: " + numero);
         } catch (NumberFormatException ex) {
             System.out.println("NumberFormatException encontrada: " + ex.getMessage());
-            ex.printStackTrace();
         } finally {
             System.out.println("Final del try");
         }

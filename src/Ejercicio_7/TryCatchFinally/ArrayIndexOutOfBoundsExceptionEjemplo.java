@@ -8,14 +8,8 @@ public class ArrayIndexOutOfBoundsExceptionEjemplo {
             System.out.println("Valor en anArray[3]: " + anArray[3]);
         } catch (ArrayIndexOutOfBoundsException ex) {
             System.out.println("Valor incorrecto: " + ex.getMessage());
-            ex.printStackTrace();
         } finally {
             System.out.println("Try finalizado");
         }
     }
-
-    /*
-    Dejo así o pongo como en el 7 el pdf?
-     */
-
 }

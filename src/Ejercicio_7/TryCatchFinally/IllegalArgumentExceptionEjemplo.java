@@ -13,7 +13,6 @@ public class IllegalArgumentExceptionEjemplo {
             System.out.println("La raíz es: " + solucion);
         } catch (IllegalArgumentException ex) {
             System.out.println("IllegalArgumentException encontrada: " + ex.getMessage());
-            ex.printStackTrace();
         } finally {
             System.out.println("Fin del programa");
         }

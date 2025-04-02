@@ -9,7 +9,6 @@ public class ClassCastExceptionEjemplo {
             System.out.println("Número: " + i);
         } catch (ClassCastException ex) {
             System.out.println("ClassCastException encontrada: " + ex);
-            ex.printStackTrace();
         } finally {
             System.out.println("Fin del try");
         }
